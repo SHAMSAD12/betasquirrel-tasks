@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    background-color: #fff;
 }
 .header {
     width: 100%;
@@ -34,8 +35,7 @@ body {
     height:200px;
     background-color:rgb(164,91,255);
     float: left;
-    
-    margin: 5px;
+     margin: 5px;
 }
 .box-b {
     width:310px;
@@ -50,7 +50,6 @@ body {
     height:200px;
     background-color:rgb(26,188,253);
     float: left;
-    
     margin: 5px;
 }
 .one{
