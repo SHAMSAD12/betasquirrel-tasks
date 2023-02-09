@@ -27,7 +27,7 @@ body {
     margin: 1px black;
     float: left;
     margin: 5px;
- margin-left: 20px;
+    margin-left: 20px;
 }
 .box-a{
     width:310px;
@@ -69,8 +69,8 @@ body {
     width: 150px;
     border-radius: 50%;
     background-color:rgb(9,206,131);
-   display: flex;
-   align-self: center;   
+    display: flex;
+    align-self: center;   
 }
 .two {
     height:190px;
@@ -80,7 +80,7 @@ body {
     float: left;
     border: 20px solid skyblue;
     margin-left: 115px;
-   margin-top: 116px;
+    margin-top: 116px;
 }
 .three{
     height: 210px;
@@ -99,8 +99,8 @@ body {
     width: 80px;
     border-radius: 50%;
     background-color:violet;
-   display: flex;
-   align-self: center;
+    display: flex;
+    align-self: center;
 }
 .four{
     height: 150px;
@@ -188,26 +188,26 @@ body {
     color: #fff;
 }
 .text{ 
-  font-weight: bold;
-  font-size: 17px;
-  color: #fff;
-  display: flex;
-justify-content: center;
-padding-top: 50px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 .text-1{
     font-weight: bold;
-  font-size: 17px;
-  color: #fff;
-padding-top: 50px;
-margin-left: 48px;
+    font-size: 17px;
+    color: #fff;
+    padding-top: 50px;
+    margin-left: 48px;
 }
 .text-2{
     font-weight: bold;
     font-size: 17px;
     color:black;
-  padding-top: 70px;
-  margin-left: 70px;
+    padding-top: 70px;
+    margin-left: 70px;
 }
 .text-3{
     display: flex;

@@ -8,12 +8,11 @@ Assignments from betasquirrel
 
 ## Tasks
 
-| Requirements                   | Output                            |
-| --------------------------     | --------------------------------- |
-| ![Task 1](screenshot/out1.png) | ![Output 1](screenshot/out1.png)   |
-| ![Task 2](screenshot/out2.jpg) | ![Output 2](screenshot/out2.jpg)   |
-| ![Task 4](screenshot/req4.jpg) | ![Output 4](screenshot/out4.jpg)   |
-
+| Requirements                   | Output                           |
+| ------------------------------ | -------------------------------- |
+| ![Task 1](screenshot/out1.png) | ![Output 1](screenshot/out1.png) |
+| ![Task 2](screenshot/out2.jpg) | ![Output 2](screenshot/out2.jpg) |
+| ![Task 4](screenshot/req4.jpg) | ![Output 4](screenshot/out4.jpg) |
 
 ## Task 3
 
@@ -49,7 +48,7 @@ Read the below links and attend exercises.
 
 ## Git Commands
 
-1. `git config` - Configure git user. Ex: `git config --global user.name "SHAMSAD12"`, `git config  --global user.email "shamsadvkmd@gmail.com"
+1. `git config` - Configure git user. Ex: `git config --global user.name "SHAMSAD12"`, `git config --global user.email "shamsadvkmd@gmail.com"
 2. `git clone` - Clone a remote git repo to your local. Ex: `git clone https://github.com/SHAMSAD12/betasquirrel.git`
 3. `git add` - Add your file changes to git. Ex: `git add .`, `git add README.md`
 4. `git commit` - Commit changes to git. Ex: `git commit -m "Initial commit"
@@ -67,4 +66,3 @@ Read the below links and attend exercises.
 - [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
-
