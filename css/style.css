@@ -1,31 +1,31 @@
 body {
-    margin: 0 auto;
-    background-color: red;
+  margin: 0 auto;
+  background-color: red;
 }
 .head {
-    height: 300px;
-    background-color: rgb(22,36,19);
-    margin: auto;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
-    border-radius: 60px;
+  height: 300px;
+  background-color: rgb(22, 36, 19);
+  margin: auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  border-radius: 60px;
 }
 .head a {
-    color: #fff;
-    padding: 30px;
-    text-decoration: none;
-    border: 10px solid yellow;
-    border-radius: 50%;
-    margin: 10px;
-} 
-.head a:hover{
-    background-color: rgb(155, 74, 74);
-    color: beige;   
+  color: #fff;
+  padding: 30px;
+  text-decoration: none;
+  border: 10px solid yellow;
+  border-radius: 50%;
+  margin: 10px;
 }
-.head a:active{
-    background-color: blue;
-    color: red;
+.head a:hover {
+  background-color: rgb(155, 74, 74);
+  color: beige;
+}
+.head a:active {
+  background-color: blue;
+  color: red;
 }
