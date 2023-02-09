@@ -4,7 +4,7 @@ Assignments from betasquirrel
 
 ## Demo
 
-- [Live](https://shamsad12.github.io/betasquirrel/)
+- [Live](https://shamsad12.github.io/beatsquirel/)
 
 ## Tasks
 
