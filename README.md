@@ -69,4 +69,6 @@ Read the below links and attend exercises.
 
 ##linkedin and stack overflow
 
--[LINKEDIN](https://www.linkedin.com/in/shamsad-ahmed-23a2301b3/) -[STACKOVERFLOW](https://stackoverflow.com/users/21194128/shamsad-ahmed)
+-[LINKEDIN](https://www.linkedin.com/in/shamsad-ahmed-23a2301b3/)
+
+-[STACKOVERFLOW](https://stackoverflow.com/users/21194128/shamsad-ahmed)
