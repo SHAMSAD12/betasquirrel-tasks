@@ -5,85 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>task-4</title>
   </head>
   <body>
     <div class="header">
       <div><img class="prof" src="image/figma-logo.png" alt="" /></div>
       <p class="figma">Figma</p>
-      <img class="rof" src="image/22image.jpg" alt="female" />
+      <img class="rof" src="./image/22image.jpg" alt="female" />
     </div>
-    <div class="dashboard">
-      <p style="color: rgb(67, 134, 108); margin-left: 10px; font-weight: bold">
-        Dashboard
-      </p>
-      <br />
-      <a href="#" class="btn">Users</a>
-      <br />
-      <a href="#" class="btn">Customers</a>
-      <br />
-      <a href="#" class="btn">Purchases</a>
-      <br />
-      <a href="#" class="btn">Sales</a>
-      <br />
-      <a href="#" class="btn">Tax</a>
-      <br />
-      <a href="#" class="btn">Employees</a>
-      <br />
-      <a href="#" class="btn">Accounts</a>
-      <br />
-      <a href="#" class="btn">Configuration</a>
-      <br />
-      <a href="#" class="btn">Auditing</a>
-      <br />
-      <a href="#" class="btn">Reports</a>
-    </div>
-    <p class="dash">Dashboard</p>
-    <div class="box">
-      <p class="text">
-        Total Sales <br /><br />
-        AED 20,0000
-      </p>
-    </div>
-    <div class="box-a">
-      <p class="text">
-        Total Purcahse <br /><br />
-        AED 10,0000
-      </p>
-    </div>
-    <div class="box-b">
-      <p class="text">
-        Total Expense <br /><br />
-        AED 5,0000
-      </p>
-    </div>
-    <div class="box-c">
-      <p class="text">
-        Revenue <br /><br />
-        AED 5,0000
-      </p>
-    </div>
-    <div class="one">
-      <div id="one-inner">
-        <p class="text-1">50/400</p>
+    <div class="main">
+      <div id="sidebar">
+        <nav>
+          <a href="#" class="active">Dashboard</a><br />
+          <a href="#">Users</a>
+          <a href="#">Customers</a>
+          <a href="#">Purchases</a>
+          <a href="#">sales</a>
+          <a href="#">Task</a>
+          <a href="#">Employees</a>
+          <a href="#">Accounts</a>
+          <a href="#">Configuration</a>
+          <a href="#">Auditing</a>
+          <a href="#">Reports</a>
+        </nav>
+      </div>
+      <div id="container">
+        <h2>dashboard</h2>
+        <div id="tile-container">
+          <div class="tile box">
+            <p class="text">
+              Total Sales <br /><br />
+              AED 20,0000
+            </p>
+          </div>
+          <div class="tile box-a">
+            <p class="text">
+              Total Purcahse <br /><br />
+              AED 10,0000
+            </p>
+          </div>
+          <div class="tile box-b">
+            <p class="text">
+              Total Expense <br /><br />
+              AED 5,0000
+            </p>
+          </div>
+          <div class="tile box-c">
+            <p class="text">
+              Revenue <br /><br />
+              AED 5,0000
+            </p>
+          </div>
+        </div>
+        <div id="circle-container">
+          <div class="circle box-a">
+            <div class="inner-circle on box">
+              <h2>50/400</h2>
+            </div>
+          </div>
+          <div class="circle box-b">
+            <div class="inner-circle second">
+              <h2>10/200</h2>
+            </div>
+          </div>
+          <div class="circle box-c">
+            <div class="inner-circle fourth">
+              <div class="inner-circle th box-b">
+                <h2>Danger</h2>
+              </div>
+            </div>
+          </div>
+          <div class="chart">
+            <div class="bar box one"></div>
+            <div class="bar box-a two"></div>
+            <div class="bar box-b three"></div>
+            <div class="bar box-c four"></div>
+            <div class="bar grey-bg five"></div>
+            <div class="bar orange-bg six"></div>
+            <div class="line"></div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="two">
-      <p class="text-2">10/200</p>
-    </div>
-    <div class="three">
-      <div class="three-inner">
-        <p class="text-3">Danger</p>
-      </div>
-    </div>
-    <div class="four">
-      <div class="green"></div>
-      <div class="red"></div>
-      <div class="violet"></div>
-      <div class="skyblue"></div>
-      <div class="darkgray"></div>
-      <div class="orange"></div>
-    </div>
-    <div class="gray"></div>
   </body>
 </html>
