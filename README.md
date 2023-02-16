@@ -66,3 +66,7 @@ Read the below links and attend exercises.
 - [HTML Table Colspan & Rowspan](https://www.w3schools.com/html/html_table_colspan_rowspan.asp)
 - [HTML Table Styling](https://www.w3schools.com/html/html_table_styling.asp)
 - [HTML Table Colgroup](https://www.w3schools.com/html/html_table_colgroup.asp)
+
+##linkedin and stack overflow
+
+-[LINKEDIN](https://www.linkedin.com/in/shamsad-ahmed-23a2301b3/) -[STACKOVERFLOW](https://stackoverflow.com/users/21194128/shamsad-ahmed)
