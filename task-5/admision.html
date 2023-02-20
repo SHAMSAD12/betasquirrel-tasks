@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>admission</title>
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <img src="./images/logo.png" alt="logoimge" />
+        <h2>One School</h2>
+      </div>
+      <div class="right">
+        <img src="../task-4/image/22image.jpg" alt="rightnav-image" />
+      </div>
+    </nav>
+    <div class="main">
+      <div id="sidebar">
+        <div class="nav">
+          <a href="#">STUDENTS</a>
+          <a href="#">STAFF</a>
+          <a href="#">EXAMS</a>
+        </div>
+      </div>
+      <div id="container">
+        <h1>STUDENT REGISTRATION</h1>
+        <form action="#">
+          <div class="card-details">
+            <div class="card-box">
+              <span class="details">First Name * :</span>
+              <input type="text" placeholder="enter your name" />
+            </div>
+            <div class="card-box">
+              Last Name *:
+              <span class="details"></span>
+              <input type="text" placeholder="enter your last name" />
+            </div>
+            <div class="card-box">
+              <span class="details">Mobile * :</span>
+              <input type="number" placeholder="enter your mobile number" />
+            </div>
+            <div class="card-box">
+              <span class="details">Email * : </span>
+              <input type="email" placeholder="enter your email" />
+            </div>
+            <div class="card-box">
+              <span class="details">Branch * :</span>
+              <select>
+                <option>select your branch</option>
+                <option>bsc physics</option>
+                <option>bsc electonics</option>
+                <option>bsc chemistry</option>
+              </select>
+            </div>
+            <div class="card-box1">
+              <span class="details">Do You Need Hostel Facility :</span>
+              <input type="radio" id="yes" name="yes" />yes
+              <input type="radio" id="no" name="yes" />no
+            </div>
+          </div>
+          <div class="additional">
+            <span class="details">Choose Additional Subjects : </span>
+            <input type="checkbox" />Cyber Security
+            <input type="checkbox" style="margin-left: 8%" />Artificial
+            intelligence <input type="checkbox" style="margin-left: 8%" />Block
+            chain <input type="checkbox" style="margin-left: 8%" />ioT
+            <input type="checkbox" style="margin-left: 8%" />Robotics
+          </div>
+          <div class="card-box2">
+            <span class="details">Permanent Address * : </span>
+            <textarea>Enter your full Address</textarea>
+          </div>
+          <div class="card-box3">
+            <input
+              type="reset"
+              name="clear"
+              value="clear"
+              style="
+                width: 100px;
+                border-radius: 20%;
+                height: 50px;
+                background-color: #ff7261;
+                color: azure;
+              "
+            />
+            <input
+              type="submit"
+              name=" submit "
+              value="submit"
+              style="
+                width: 100px;
+                border-radius: 20%;
+                height: 50px;
+                border-radius: 20%;
+                background-color: #3aba89;
+                color: azure;
+                margin-left: 40px;
+              "
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

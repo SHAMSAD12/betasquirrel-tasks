@@ -1,0 +1,140 @@
+body {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 auto;
+}
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 2px solid #999999;
+}
+.left {
+  height: 50px;
+  float: left;
+  display: flex;
+  align-self: center;
+}
+.left img {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+.left h2 {
+  padding: 0 8px;
+  align-self: center;
+}
+.right {
+  float: right;
+  align-self: center;
+  justify-content: space-between;
+}
+.right img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  float: right;
+  justify-content: space-between;
+}
+#container {
+  width: 90%;
+  margin-left: 2%;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 200;
+  position: relative;
+  text-decoration: underline;
+}
+.main {
+  height: calc(100vh-80px);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+#sidebar {
+  width: 150px;
+  height: 100vh;
+  border-right: 2px solid #999999;
+  float: left;
+}
+.card-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-box {
+  width: calc(100% / 2 - 20%);
+  margin-right: 20%;
+  margin-bottom: 15px;
+}
+.details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.card-box > input {
+  height: 10px;
+  width: 100%;
+  margin-right: 200px;
+  padding: 2%;
+}
+select {
+  width: 105%;
+  margin-right: 200px;
+  height: 20px;
+}
+.card-box1 {
+  width: 50%;
+  padding-top: 1%;
+}
+.additional > input {
+  padding-left: 1px;
+  justify-content: space-between;
+}
+textarea {
+  resize: none;
+  width: 60%;
+  height: 150px;
+}
+.card-box2 {
+  margin-top: 2%;
+}
+.card-box3 {
+  margin-left: 67%;
+  margin-top: 2%;
+}
+a {
+  padding: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+  #sidebar {
+    display: none;
+  }
+  .card-box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .card-details {
+    max-height: 300px;
+    overflow: scroll;
+  }
+  .card-box3 {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+}

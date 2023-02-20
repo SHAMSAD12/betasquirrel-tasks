@@ -7,7 +7,7 @@ body {
   height: 100px;
   border: 3px solid cyan;
 }
-.down p {
+.down {
   background-color: #d3d7e6;
   height: 300px;
   width: 100%;
@@ -23,7 +23,7 @@ body {
   font-size: small;
   overflow: hidden;
 }
-#main h1 {
+h1 {
   text-decoration: underline;
 }
 .gandhi {
@@ -61,5 +61,23 @@ a:hover {
 @media only screen and (max-width: 650px) {
   .right {
     display: none;
+  }
+  .top {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    padding-left: 3px;
+  }
+  h1 {
+    white-space: nowrap;
+    margin: 0;
+    padding: 0 auto;
+    height: 45px;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    float: left;
+    font-size: smaller;
+    padding-top: 20px;
   }
 }

@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 100%;
+  overflow: hidden;
+  padding: 0 auto;
+}
+nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 2px solid #999999;
+}
+.left {
+  height: 50px;
+  float: left;
+  display: flex;
+  align-self: center;
+}
+.left img {
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+.left h2 {
+  padding: 0 8px;
+  align-self: center;
+}
+.right {
+  float: right;
+  align-self: center;
+  justify-content: space-between;
+}
+.right img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  float: right;
+  justify-content: space-between;
+}
+.container {
+  margin-left: 2%;
+  width: 100%;
+  margin-right: 2%;
+}
+h1 {
+  font-size: 25px;
+  font-weight: 200;
+  position: relative;
+  text-decoration: underline;
+}
+.main {
+  height: calc(100vh-80px);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+#sidebar {
+  width: 150px;
+  height: 100vh;
+  border-right: 2px solid #999999;
+  float: left;
+}
+.nav {
+  height: 100px;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+.nav > a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: medium;
+  font-weight: bold;
+  padding-top: 2%;
+}
+table {
+  border: 0.5px solid black;
+  border: "1";
+  border-collapse: collapse;
+  padding: 20px;
+}
+th,
+tr {
+  border: 0.5px solid black;
+  width: 240px;
+  height: 50px;
+}
+td {
+  border: 0.5px solid black;
+  width: 210px;
+  height: 50px;
+  padding-left: 20px;
+}
+.active > a {
+  overflow: hidden;
+  color: #fff;
+  float: right;
+  display: flex;
+  background-color: green;
+  width: 130px;
+  height: 40px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: -46px;
+}
+.active > a :hover {
+  color: yellow;
+}
