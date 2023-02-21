@@ -8,11 +8,13 @@ Assignments from betasquirrel
 
 ## Tasks
 
-| Requirements                   | Output                           |
-| ------------------------------ | -------------------------------- |
-| ![Task 1](screenshot/out1.png) | ![Output 1](screenshot/out1.png) |
-| ![Task 2](screenshot/out2.jpg) | ![Output 2](screenshot/out2.jpg) |
-| ![Task 4](screenshot/req4.jpg) | ![Output 4](screenshot/out4.jpg) |
+| Requirements                     | Output                               |
+| -------------------------------- | ------------------------------------ |
+| ![Task 1](screenshot/out1.png)   | ![Output 1](screenshot/out1.png)     |
+| ![Task 2](screenshot/out2.jpg)   | ![Output 2](screenshot/out2.jpg)     |
+| ![Task 4](screenshot/req4.jpg)   | ![Output 4](screenshot/out4.jpg)     |
+| ![Task 5](screenshot/req5.jpg)   | ![Output 5](screenshot/out5.png)     |
+| ![Task 5](screenshot/req5-1.jpg) | ![Output 5](./screenshot/out5-1.png) |
 
 ## Task 3
 
