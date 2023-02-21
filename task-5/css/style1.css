@@ -108,3 +108,8 @@ td {
 .active > a :hover {
   color: yellow;
 }
+@media (max-width: 650px) {
+  #sidebar {
+    display: none;
+  }
+}
