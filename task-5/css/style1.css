@@ -79,6 +79,7 @@ table {
   border: "1";
   border-collapse: collapse;
   padding: 20px;
+  width: 100%;
 }
 th,
 tr {
@@ -97,7 +98,7 @@ td {
   color: #fff;
   float: right;
   display: flex;
-  background-color: green;
+  background-color: #3aba89;
   width: 130px;
   height: 40px;
   text-decoration: none;
@@ -111,5 +112,9 @@ td {
 @media (max-width: 650px) {
   #sidebar {
     display: none;
+  }
+  .scroll {
+    width: 100%;
+    overflow: auto;
   }
 }

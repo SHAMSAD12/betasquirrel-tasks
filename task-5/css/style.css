@@ -85,7 +85,7 @@ h1 {
 select {
   width: 105%;
   margin-right: 200px;
-  height: 20px;
+  height: 30px;
 }
 .card-box1 {
   width: 50%;
@@ -113,6 +113,7 @@ a {
   margin-left: 20px;
   font-size: medium;
   font-weight: bold;
+  color: black;
 }
 .nav {
   display: flex;
@@ -130,11 +131,16 @@ a {
     width: 100%;
   }
   .card-details {
-    max-height: 300px;
+    max-height: 200px;
     overflow: scroll;
   }
   .card-box3 {
     margin-left: 2%;
     margin-top: 2%;
+  }
+  text area {
+    resize: none;
+    width: 40%;
+    height: 80px;
   }
 }

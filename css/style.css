@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
   background-color: red;
+  margin-top: 15%;
 }
 .head {
   height: 300px;
@@ -10,8 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 200px;
-  border-radius: 60px;
+  border-radius: 40%;
 }
 .head a {
   color: #fff;
@@ -28,4 +28,16 @@ body {
 .head a:active {
   background-color: blue;
   color: red;
+}
+@media (max-width: 650px) {
+  .head a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 10px;
+    overflow: scroll;
+    margin-top: 20px;
+    justify-content: center;
+  }
 }
