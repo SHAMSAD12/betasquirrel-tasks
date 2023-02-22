@@ -63,7 +63,6 @@ a:hover {
     display: none;
   }
   .top {
-    display: flex;
     width: 100%;
     height: 40%;
     padding-left: 3px;
@@ -75,9 +74,11 @@ a:hover {
     height: 45px;
   }
   p {
-    font-family: "Open Sans", sans-serif;
-    float: left;
     font-size: smaller;
-    padding-top: 20px;
+    margin-top: 1px;
+  }
+  .down {
+    height: 100%;
+    padding: 3px;
   }
 }

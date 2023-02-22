@@ -63,16 +63,13 @@ h1 {
   float: left;
 }
 .nav {
-  height: 100px;
+  height: 20%;
   justify-content: space-between;
   padding: 20px 20px;
 }
 .nav > a {
   text-decoration: none;
-  margin-left: 20px;
-  font-size: medium;
-  font-weight: bold;
-  padding-top: 2%;
+  margin-top: 2%;
 }
 table {
   border: 0.5px solid black;
