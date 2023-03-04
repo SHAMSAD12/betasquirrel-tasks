@@ -64,8 +64,8 @@ h1 {
 }
 .nav {
   height: 20%;
-  justify-content: space-between;
-  padding: 20px 20px;
+  margin-top: 15px;
+  margin-left: 13px;
 }
 .nav > a {
   text-decoration: none;
@@ -105,6 +105,13 @@ td {
 }
 .active > a :hover {
   color: yellow;
+}
+.student img {
+  align-items: center;
+  font-size: smaller;
+}
+nav img {
+  margin-right: 5px;
 }
 @media (max-width: 650px) {
   #sidebar {
