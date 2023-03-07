@@ -2,12 +2,13 @@ body {
   margin: 0 auto;
   background-color: red;
   margin-top: 15%;
+  width: 100vw;
 }
 .head {
   height: 300px;
   background-color: rgb(22, 36, 19);
   margin: auto;
-  width: 40%;
+  width: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +21,7 @@ body {
   border: 10px solid yellow;
   border-radius: 50%;
   margin: 10px;
+  overflow: scroll;
 }
 .head a:hover {
   background-color: rgb(155, 74, 74);
@@ -30,14 +32,17 @@ body {
   color: red;
 }
 @media (max-width: 650px) {
+  .head {
+    margin-top: 20vh;
+  }
   .head a {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 20px;
-    border: 10px;
+    border: 10px solid yellow;
     overflow: scroll;
     margin-top: 20px;
     justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    margin: 10px;
   }
 }
