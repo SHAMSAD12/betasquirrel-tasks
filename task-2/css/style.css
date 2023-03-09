@@ -33,7 +33,7 @@ body {
   border: 5px solid rgb(66, 33, 148);
   font-size: small;
   margin-top: 15px;
-  margin-left: 20%;
+  margin-left: 28%;
   overflow: hidden;
 }
 #main h1 {
@@ -90,13 +90,16 @@ body {
   margin-top: 15px;
   border: 20px solid red;
 }
+nav {
+  margin-top: 20px;
+}
 @media only screen and (max-width: 650px) {
   .right {
     display: none;
   }
   .top {
     width: 100%;
-    margin: 1px;
+    margin: -2px;
     padding: 0;
   }
   .top-1 {
