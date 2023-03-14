@@ -1,0 +1,10 @@
+body {
+  margin: 0 auto;
+  background-color: red;
+  margin-top: 15%;
+  width: 100vw;
+}
+.btn {
+  height: 65px;
+  font-size: 1.1em;
+}
