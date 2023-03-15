@@ -1,10 +1,13 @@
 body {
   margin: 0 auto;
-  background-color: red;
+  background-color: rgb(46, 43, 43) !important;
   margin-top: 15%;
   width: 100vw;
 }
 .btn {
   height: 65px;
   font-size: 1.1em;
+}
+.form-control:valid {
+  background-color: yellow !important;
 }

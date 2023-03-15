@@ -14,76 +14,95 @@
     <script src="./js/main.js"></script>
     <title>calculator</title>
   </head>
-  <body class="p-3 mb-2 bg-primary text-white">
+  <body>
     <div
-      class="mx-auto my-auto w-100 bg-dark bg-opacity-25 rounded p- 2 d-grid"
-      style="max-width: 425px"
+      class="mx-auto my-auto w-100 p-3 mb-2 bg-transparent text-dark"
+      style="max-width: 450px"
     >
       <input
         type="text"
         name=""
-        class="form-control form control-lg fs-3 text-end bg-white border-0 rounded shadow none"
+        class="form-control form control-lg fs-3 text-end border-5 rounded shadow none h-300 p-3 mb-2"
         id="screen"
-        value="0"
       />
-      <div class="row g-2 row-cols-4 mt-1">
+      <div class="row g-1 row-cols-4 mt-1">
         <div class="col">
           <button onclick="clearDisplay()" class="btn w-100 bg-white">C</button>
         </div>
         <div class="col-6">
-          <button onclick="buttonclick('/')" class="btn w-100 bg-white">
+          <button onclick="buttonclick('/')" class="btn btn-danger w-100">
             /
           </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick('*')" class="btn w-100 bg-white">
+          <button onclick="buttonclick('*')" class="btn btn-danger w-100">
             x
           </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(7)" class="btn w-100 bg-white">7</button>
+          <button onclick="buttonclick(7)" class="btn btn-success w-100">
+            7
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(8)" class="btn w-100 bg-white">8</button>
+          <button onclick="buttonclick(8)" class="btn btn-success w-100">
+            8
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(9)" class="btn w-100 bg-white">9</button>
+          <button onclick="buttonclick(9)" class="btn btn-success w-100">
+            9
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick('-')" class="btn w-100 bg-white">
+          <button onclick="buttonclick('-')" class="btn btn-danger w-100">
             -
           </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(4)" class="btn w-100 bg-white">4</button>
+          <button onclick="buttonclick(4)" class="btn btn-success w-100">
+            4
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(5)" class="btn w-100 bg-white">5</button>
+          <button onclick="buttonclick(5)" class="btn btn-success w-100">
+            5
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(6)" class="btn w-100 bg-white">6</button>
+          <button onclick="buttonclick(6)" class="btn btn-success w-100">
+            6
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick('+')" class="btn w-100 bg-white">
+          <button onclick="buttonclick('+')" class="btn btn-danger w-100 fs-3">
             +
           </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(1)" class="btn w-100 bg-white">1</button>
+          <button onclick="buttonclick(1)" class="btn btn-success w-100">
+            1
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(2)" class="btn w-100 bg-white">2</button>
+          <button onclick="buttonclick(2)" class="btn btn-success w-100">
+            2
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(3)" class="btn w-100 bg-white">3</button>
+          <button onclick="buttonclick(3)" class="btn btn-success w-100">
+            3
+          </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick('/')" class="btn w-100 bg-white">
+          <button onclick="buttonclick('/')" class="btn btn-danger w-100">
             %
           </button>
         </div>
         <div class="col">
-          <button onclick="buttonclick(0)" class="btn w-100 bg-white">0</button>
+          <button onclick="buttonclick(0)" class="btn btn-success w-100">
+            0
+          </button>
         </div>
         <div class="col">
           <button onclick="buttonclick('.')" class="btn w-100 bg-white">
@@ -91,7 +110,9 @@
           </button>
         </div>
         <div class="col-6">
-          <button onclick="equalClick()" class="btn w-100 bg-danger">=</button>
+          <button onclick="equalClick()" class="btn btn-danger w-100 fs-3">
+            =
+          </button>
         </div>
       </div>
     </div>
