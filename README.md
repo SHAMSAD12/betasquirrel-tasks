@@ -6,6 +6,7 @@ Assignments from betasquirrel
 
 - [Live](https://shamsad12.github.io/betasquirrel-tasks/)
 - [figma](https://www.figma.com/file/sdDTXIdoFsWKde10PZmNgb/car-wash-desktop?node-id=0%3A1&t=oKaGCD0QAi28yHh5-1)
+- [calculator](https://shamsad12.github.io/betasquirrel-tasks/task-6/index.html)
 
 ## Tasks
 
